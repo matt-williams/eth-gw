@@ -1,0 +1,11 @@
+[package]
+name = "hello-world"
+version = "0.1.0"
+authors = ["Matt Williams <matwilliams@hotmail.com>"]
+
+[lib]
+path = "src/lib.rs"
+crate-type = ["cdylib"]
+
+[dependencies]
+wee_alloc = "0.4"

@@ -1,0 +1,13 @@
+[package]
+name = "eth-gw"
+version = "0.1.0"
+authors = ["Matt Williams <matwilliams@hotmail.com>"]
+
+[dependencies]
+ens = { git = "https://github.com/matt-williams/rust-ens.git", rev = "80578685063273a9143e26edbe30611005005cd0" }
+futures = "0.1"
+hyper = "0.11"
+ipfsapi = "0.2"
+tokio-core = "0.1"
+wasmi = "0.4"
+web3 = { version = "0.4", "features" = ["http"] }
